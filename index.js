@@ -37,7 +37,5 @@ const color = {
   },
 };
 
-color.start();
-
 refs.startBtn.addEventListener('click', color.start.bind(color));
 refs.stopBtn.addEventListener('click', color.stop.bind(color));
